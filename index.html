@@ -4,301 +4,281 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rentalcars Clone</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
 </head>
-
 <body>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-       <div class="overlay">
 
-    <!-- Top Navigation -->
+<header class="hero">
+    <div class="overlay">
+        <div class="container">
 
-    <nav class="navbar">
+           
 
-        <div class="logo">
-            Rentalcars.com
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <div class="logo">Rental Cars By Bookings.com</div>
+                <div class="nav-right">
+                    <span>USD</span>
+                    <button class="manage-btn">Manage Booking</button>
+                    <label for="menu-toggle" class="hamburger-label">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+            </nav>
+
+            <!-- MOBILE MENU -->
+            <div class="mobile-menu">
+                <a href="#">Stays</a>
+                <a href="#">Flights</a>
+                <a href="#">Car Rentals</a>
+                <a href="#">Attractions</a>
+                <a href="#">Airport Taxis</a>
+                <a href="#">USD</a>
+                <a href="#">Manage Booking</a>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="services">
+                <a href="#">Stays</a>
+                <a href="#">Flights</a>
+                <a href="#" class="active">Car Rentals</a>
+                <a href="#">Attractions</a>
+                <a href="#">Airport Taxis</a>
+            </div>
+
+            <!-- HERO CONTENT -->
+            <div class="hero-content">
+                <h1>Car Hire in West Palm Beach</h1>
+                <p>Free cancellations on most bookings &bull; 60,000+ locations &bull; Customer support in 30+ languages</p>
+
+                <!-- SEARCH BOX -->
+                 <div class="search-box">
+                    <div class="search-location">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Airport, city or station">
+                    </div>
+                    <div class="search-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <div>
+                            <small>Pick-up date</small>
+                            <p>Tue 23 Jun</p>
+                        </div>
+                    </div>
+                    <div class="search-time">
+                        <i class="fa-regular fa-clock"></i>
+                        <div>
+                            <small>Time</small>
+                            <p>10:00</p>
+                        </div>
+                    </div>
+                    <div class="search-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        <div>
+                            <small>Drop-off date</small>
+                            <p>Fri 26 Jun</p>
+                        </div>
+                    </div>
+                    <div class="search-time">
+                        <i class="fa-regular fa-clock"></i>
+                        <div>
+                            <small>Time</small>
+                            <p>10:00</p>
+                        </div>
+                    </div>
+                    <button class="search-btn">Search</button>
+                </div>
+               
+                <!-- FILTERS -->
+                <div class="filters">
+                    <label>
+                        <input type="checkbox"> Drop car off at different location
+                    </label>
+                    <label>
+                        <input type="checkbox"> Driver aged between 30 - 65?
+                    </label>
+                    <a href="#"><i class="fa-solid fa-sliders"></i> Quick filters</a>
+                </div>
+            </div>
+
         </div>
-
-        <div class="nav-right">
-            <span>USD</span>
-            <button>Manage Booking</button>
-        </div>
-
-    </nav>
-
-    <!-- Services -->
-
-    <div class="services">
-
-        <a href="#">Stays</a>
-        <a href="#">Flights</a>
-        <a href="#">Car Rentals</a>
-        <a href="#">Attractions</a>
-        <a href="#">Airport Taxis</a>
-
     </div>
-
-    <!-- Heading -->
-
-    <div class="hero-content">
-
-        <h1>Car Hire in West Palm Beach</h1>
-
-        <p>
-            Free cancellations on most bookings
-            • 60,000+ locations
-            • Customer support in 30+ languages
-        </p>
-<div class="search-box">
-
-    <div class="search-location">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="Airport, city or station">
-    </div>
-
-    <div class="search-date">
-        <i class="fa-regular fa-calendar"></i>
-        <div>
-            <small>Pick-up date</small>
-            <p>Tue 23 Jun</p>
-        </div>
-    </div>
-
-    <div class="search-time">
-        <i class="fa-regular fa-clock"></i>
-        <div>
-            <small>Time</small>
-            <p>10:00</p>
-        </div>
-    </div>
-
-    <div class="search-date">
-        <i class="fa-regular fa-calendar"></i>
-        <div>
-            <small>Drop-off date</small>
-            <p>Fri 26 Jun</p>
-        </div>
-    </div>
-
-    <div class="search-time">
-        <i class="fa-regular fa-clock"></i>
-        <div>
-            <small>Time</small>
-            <p>10:00</p>
-        </div>
-    </div>
-
-    <button class="search-btn">
-        Search
-    </button>
-
-</div>
-<div class="filters">
-
-    <label>
-        <input type="checkbox">
-        Drop car off at different location
-    </label>
-
-    <label>
-        <input type="checkbox">
-        Driver aged between 30 - 65?
-    </label>
-
-    <a href="#">
-        <i class="fa-solid fa-sliders"></i>
-        Quick filters
-    </a>
-
-</div>
-
-    </div>
-
-</div> 
 </header>
+
+
 <section class="brands">
-
     <div class="container">
-
         <div class="brand-logos">
-
             <img src="images/sixt.png" alt="Sixt">
             <img src="images/europcar.png" alt="Europcar">
             <img src="images/dollar.png" alt="Dollar">
             <img src="images/budget.png" alt="Budget">
             <img src="images/getyourcar.png" alt="GetYourCar">
             <img src="images/thrifty.png" alt="Thrifty">
-
         </div>
-
     </div>
-
 </section>
+
+
 <section class="features">
-
     <div class="container">
-
         <div class="feature-grid">
-
             <div class="feature-card">
-
                 <img src="images/flexible-rental.png" alt="Flexible Rentals">
-
                 <div>
                     <h3>Flexible rentals</h3>
-
-                    <p>
-                        Cancel or change most bookings
-                        for free up to 48 hours before
-                        pick-up
-                    </p>
+                    <p>Cancel or change most bookings for free up to 48 hours before pick-up</p>
                 </div>
-
             </div>
-
             <div class="feature-card">
-
                 <img src="images/hidden-fees.png" alt="No Hidden Fees">
-
                 <div>
                     <h3>No hidden fees</h3>
-
-                    <p>
-                        Know exactly what you're paying
-                    </p>
+                    <p>Know exactly what you're paying</p>
                 </div>
-
             </div>
-
             <div class="feature-card">
-
                 <img src="images/review.png" alt="Reviews">
-
                 <div>
                     <h3>5 million+ reviews</h3>
-
-                    <p>
-                        By real, verified customers
-                    </p>
+                    <p>By real, verified customers</p>
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
+
+
 <section class="cars">
-
     <div class="container">
-             <div class="vehicle-tabs">
-    <button class="tab active" data-category="suv">SUV</button>
-    <button class="tab" data-category="economy">Economy</button>
-    <button class="tab" data-category="standard">Standard</button>
-    <button class="tab" data-category="people">People Carrier</button>
-    <button class="tab" data-category="convertible">Convertible</button>
-    <button class="tab" data-category="luxury">Luxury</button>
-</div>
+        
+        <!-- Radio inputs for tabs — placed here so CSS siblings work -->
+            <input type="radio" name="cartab" id="tab-suv" checked>
+            <input type="radio" name="cartab" id="tab-economy">
+            <input type="radio" name="cartab" id="tab-standard">
+            <input type="radio" name="cartab" id="tab-people">
+            <input type="radio" name="cartab" id="tab-convertible">
+            <input type="radio" name="cartab" id="tab-luxury">
 
-<div id="car-grid" class="car-grid"></div>
-        <div class="car-grid">
-          
-
-            <div class="car-card">
-
-                <img src="images/ford.jpg" alt="Ford Escape">
-
-                <div class="car-info">
-
-                    <h3>Ford Escape</h3>
-
-                    <span>or similar</span>
-
-                    <div class="car-details">
-                        <p>🧳 3 Large bags</p>
-                        <p>👤 5 seats</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="car-card">
-
-                <img src="images/rav_4.jpg" alt="Toyota RAV4">
-
-                <div class="car-info">
-
-                    <h3>Toyota RAV4</h3>
-
-                    <span>or similar</span>
-
-                    <div class="car-details">
-                        <p>🧳 3 Large bags</p>
-                        <p>👤 5 seats</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="car-card">
-
-                <img src="images/grand_cherokee.jpg" alt="Jeep">
-
-                <div class="car-info">
-
-                    <h3>Jeep Grand Cherokee</h3>
-
-                    <span>or similar</span>
-
-                    <div class="car-details">
-                        <p>🧳 3 Large bags</p>
-                        <p>👤 5 seats</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="car-card">
-
-                <img src="images/santa_fe.jpg" alt="Hyundai">
-
-                <div class="car-info">
-
-                    <h3>Hyundai Santa Fe</h3>
-
-                    <span>or similar</span>
-
-                    <div class="car-details">
-                        <p>🧳 3 Large bags</p>
-                        <p>👤 5 seats</p>
-                    </div>
-
-                </div>
-
-            </div>
-
+            <!-- Mobile menu toggle -->
+            <input type="checkbox" id="menu-toggle" class="hamburger-check">
+            
+        <!-- Tab labels -->
+        <div class="tab-row">
+            <label for="tab-suv">SUV</label>
+            <label for="tab-economy">Economy</label>
+            <label for="tab-standard">Standard</label>
+            <label for="tab-people">People Carrier</label>
+            <label for="tab-convertible">Convertible</label>
+            <label for="tab-luxury">Luxury</label>
         </div>
 
-    </div>
+        <!-- SUV panel -->
+        <div class="car-panel" data-panel="suv">
+            <div class="car-card">
+                <img src="images/ford.jpg" alt="Ford Escape">
+                <div class="car-info">
+                    <h3>Ford Escape</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 3 Large bags</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <img src="images/rav_4.jpg" alt="Toyota RAV4">
+                <div class="car-info">
+                    <h3>Toyota RAV4</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 3 Large bags</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <img src="images/grand_cherokee.jpg" alt="Jeep Grand Cherokee">
+                <div class="car-info">
+                    <h3>Jeep Grand Cherokee</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 3 Large bags</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <img src="images/santa_fe.jpg" alt="Hyundai Santa Fe">
+                <div class="car-info">
+                    <h3>Hyundai Santa Fe</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 3 Large bags</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Economy panel -->
+        <div class="car-panel" data-panel="economy">
+            <div class="car-card">
+                <img src="images/ford.jpg" alt="Toyota Yaris">
+                <div class="car-info">
+                    <h3>Toyota Yaris</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 1 Small bag</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <img src="images/rav_4.jpg" alt="Kia Rio">
+                <div class="car-info">
+                    <h3>Kia Rio</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 1 Small bag</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Standard panel -->
+        <div class="car-panel" data-panel="standard">
+            <div class="car-card">
+                <img src="images/ford.jpg" alt="Toyota Camry">
+                <div class="car-info">
+                    <h3>Toyota Camry</h3>
+                    <span>or similar</span>
+                    <div class="car-details">
+                        <p>🧳 2 Large bags</p>
+                        <p>👤 5 seats</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        
+
+        
+        
+
+        
+
+    </div>
 </section>
-<!-- DESTINATIONS + AIRPORTS -->
+
+
 <section class="destinations">
     <div class="container">
 
         <div class="dest-grid">
-
-            <!-- Left column -->
             <div class="dest-col">
                 <h2>Top Worldwide Destinations</h2>
                 <div class="dest-links">
@@ -318,8 +298,6 @@
                     </ul>
                 </div>
             </div>
-
-            <!-- Right column -->
             <div class="dest-col">
                 <h2>Top Worldwide Airports</h2>
                 <div class="dest-links">
@@ -339,80 +317,88 @@
                     </ul>
                 </div>
             </div>
-            <!-- NEAR WEST PALM BEACH -->
-<div class="near-section">
-    <h2>Near West Palm Beach</h2>
-    <div class="near-links">
-        <ul>
-            <li><a href="#">West Palm Beach Airport car hire</a></li>
-            <li><a href="#">Tequesta car hire</a></li>
-            <li><a href="#">Pompano Beach car hire</a></li>
-            <li><a href="#">Margate car hire</a></li>
-            <li><a href="#">Lauderdale Lakes car hire</a></li>
-            <li><a href="#">Fort Lauderdale car hire</a></li>
-            <li><a href="#">Dania car hire</a></li>
-            <li><a href="#">Opa-locka Executive Airport car hire</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Delray Beach car hire</a></li>
-            <li><a href="#">Boca Raton car hire</a></li>
-            <li><a href="#">Coral Springs car hire</a></li>
-            <li><a href="#">Stuart car hire</a></li>
-            <li><a href="#">Sunrise car hire</a></li>
-            <li><a href="#">Fort Lauderdale Airport car hire</a></li>
-            <li><a href="#">Pembroke Pines car hire</a></li>
-            <li><a href="#">Hialeah car hire</a></li>
-        </ul>
-    </div>
-</div>
-
         </div>
+
+        <!-- Near section — correctly placed OUTSIDE dest-grid -->
+        <div class="near-section">
+            <h2>Near West Palm Beach</h2>
+            <div class="near-links">
+                <ul>
+                    <li><a href="#">West Palm Beach Airport car hire</a></li>
+                    <li><a href="#">Tequesta car hire</a></li>
+                    <li><a href="#">Pompano Beach car hire</a></li>
+                    <li><a href="#">Margate car hire</a></li>
+                    <li><a href="#">Lauderdale Lakes car hire</a></li>
+                    <li><a href="#">Fort Lauderdale car hire</a></li>
+                    <li><a href="#">Dania car hire</a></li>
+                    <li><a href="#">Opa-locka Executive Airport car hire</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Delray Beach car hire</a></li>
+                    <li><a href="#">Boca Raton car hire</a></li>
+                    <li><a href="#">Coral Springs car hire</a></li>
+                    <li><a href="#">Stuart car hire</a></li>
+                    <li><a href="#">Sunrise car hire</a></li>
+                    <li><a href="#">Fort Lauderdale Airport car hire</a></li>
+                    <li><a href="#">Pembroke Pines car hire</a></li>
+                    <li><a href="#">Hialeah car hire</a></li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 </section>
-<!-- ACCORDION -->
+
+
 <section class="accordion-section">
     <div class="container">
+        <h2>Additional Information</h2>
 
-        <h2 class="accordion-heading">Additional Information</h2>
+        <details class="accordion-item">
+            <summary>
+                <span>Related searches</span>
+                <i class="fa-solid fa-chevron-down icon"></i>
+            </summary>
+            <div class="accordion-body">
+                <p>Find related car hire searches for West Palm Beach and surrounding areas.</p>
+            </div>
+        </details>
 
-        <div class="accordion-item" onclick="toggleAccordion(this)">
-            <span>Related searches</span>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="accordion-body">
-            <p>Find related car hire searches for West Palm Beach and surrounding areas.</p>
-        </div>
+        <details class="accordion-item">
+            <summary>
+                <span>Popular Destinations</span>
+                <i class="fa-solid fa-chevron-down icon"></i>
+            </summary>
+            <div class="accordion-body">
+                <p>Explore the most popular car hire destinations worldwide.</p>
+            </div>
+        </details>
 
-        <div class="accordion-item" onclick="toggleAccordion(this)">
-            <span>Popular Destinations</span>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="accordion-body">
-            <p>Explore the most popular car hire destinations worldwide.</p>
-        </div>
+        <details class="accordion-item">
+            <summary>
+                <span>Airports</span>
+                <i class="fa-solid fa-chevron-down icon"></i>
+            </summary>
+            <div class="accordion-body">
+                <p>Browse car hire options at major airports near West Palm Beach.</p>
+            </div>
+        </details>
 
-        <div class="accordion-item" onclick="toggleAccordion(this)">
-            <span>Airports</span>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="accordion-body">
-            <p>Browse car hire options at major airports near West Palm Beach.</p>
-        </div>
-
-        <div class="accordion-item" onclick="toggleAccordion(this)">
-            <span>Car Rental Companies</span>
-            <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="accordion-body">
-            <p>Compare prices from SIXT, Europcar, Budget, Dollar, Thrifty and more.</p>
-        </div>
+        <details class="accordion-item">
+            <summary>
+                <span>Car Rental Companies</span>
+                <i class="fa-solid fa-chevron-down icon"></i>
+            </summary>
+            <div class="accordion-body">
+                <p>Compare prices from SIXT, Europcar, Budget, Dollar, Thrifty and more.</p>
+            </div>
+        </details>
 
     </div>
 </section>
-<!-- FOOTER -->
-<footer class="footer">
 
-    <!-- Blue top bar -->
+
+<footer class="footer">
     <div class="footer-top">
         <div class="container">
             <ul class="footer-links">
@@ -431,20 +417,12 @@
             </ul>
         </div>
     </div>
-
-    <!-- White bottom bar -->
     <div class="footer-bottom">
         <div class="container">
-
             <div class="footer-text">
-                <p>Rentalcars.com is a trading name of Booking.com Transport Limited
-                which is a limited company registered in England and Wales
-                (Number: 05179829) whose registered address is at 6 Goods Yard Street,
-                Manchester, M3 3BG, United Kingdom. VAT number: GB 855349007.</p>
-                <p>Rentalcars.com is part of Booking Holdings Inc., the world leader
-                in online travel &amp; related services.</p>
+                <p>Rentalcars.com is a trading name of Booking.com Transport Limited which is a limited company registered in England and Wales (Number: 05179829) whose registered address is at 6 Goods Yard Street, Manchester, M3 3BG, United Kingdom. VAT number: GB 855349007.</p>
+                <p>Rentalcars.com is part of Booking Holdings Inc., the world leader in online travel &amp; related services.</p>
             </div>
-
             <div class="footer-brands">
                 <span class="fb booking">Booking.com</span>
                 <span class="fb priceline">priceline</span>
@@ -453,14 +431,9 @@
                 <span class="fb rentalcars">rentalcars.com</span>
                 <span class="fb opentable">&#9679; OpenTable</span>
             </div>
-
-            <p class="footer-copy">
-                Copyright &copy; 2025 Booking.com Transport Limited. All rights reserved.
-            </p>
-
+            <p class="footer-copy">Copyright &copy; 2025 Booking.com Transport Limited. All rights reserved.</p>
         </div>
     </div>
-
 </footer>
 
 </body>
